@@ -7,9 +7,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="bg-black text-white w-10 h-10 rounded-lg flex items-center justify-center font-bold text-xl">
-                M
-              </div>
+              <img
+                src="https://i.ibb.co/W9cRk35/438802811-122139959558202824-899852585689881203-n-removebg-preview.png"
+                alt="Melny Results Logo"
+                className="h-10 w-auto"
+              />
               <span className="text-2xl font-bold text-black">Melny Results</span>
             </div>
             <p className="text-gray-600">
@@ -42,7 +44,7 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-600">
               <li className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                <span>(555) 0123</span>
+                <span>(647) 764-6047</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-5 h-5" />
