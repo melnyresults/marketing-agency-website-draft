@@ -27,9 +27,6 @@ export default function Header() {
             <a href="#blog" className="text-gray-700 hover:text-black font-medium transition-colors">
               Blog
             </a>
-            <a href="#call" className="text-gray-700 hover:text-black font-medium transition-colors">
-              Book a Call
-            </a>
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
@@ -61,9 +58,6 @@ export default function Header() {
               </a>
               <a href="#blog" className="text-gray-700 hover:text-black font-medium">
                 Blog
-              </a>
-              <a href="#call" className="text-gray-700 hover:text-black font-medium">
-                Book a Call
               </a>
               <a href="tel:647-764-6047" className="flex items-center gap-2 text-gray-700 hover:text-black font-medium">
                 <Phone className="w-5 h-5" />

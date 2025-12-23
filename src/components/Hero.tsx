@@ -8,32 +8,20 @@ export default function Hero() {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-8">
-            <div className="inline-flex items-center gap-3 bg-black text-white px-5 py-2 rounded-full mb-8 shadow-lg">
-              <span className="text-sm font-medium">As mentioned on</span>
-              <span className="text-sm font-bold">CEO of Times</span>
+            <div className="inline-flex items-center gap-2 bg-black text-white px-5 py-2 rounded-full mb-8 shadow-lg">
+              <span className="text-sm font-medium">As mentioned on CEO of Times</span>
             </div>
 
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-black mb-6 leading-tight">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-black mb-6 leading-tight">
               We'll Fill Your Calendar with New Customers in 30 Days - Guaranteed
             </h1>
 
-            <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-base md:text-lg text-gray-600 mb-10 leading-relaxed max-w-3xl mx-auto">
               Stop waiting for customers to find you. We put your business in front of locals actively searching for your services - starting this month.
             </p>
-
-            <div className="flex justify-center mb-10">
-              <button className="group relative bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white px-10 py-5 rounded-xl font-bold text-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-                <div className="absolute inset-0 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <span className="relative flex items-center gap-3">
-                  Book a Call
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
-                </span>
-                <div className="absolute inset-0 -z-10 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 blur-xl opacity-50 group-hover:opacity-75 transition-opacity"></div>
-              </button>
-            </div>
           </div>
 
-          <div className="mb-12 rounded-2xl overflow-hidden shadow-2xl max-w-4xl mx-auto">
+          <div className="mb-8 rounded-2xl overflow-hidden shadow-2xl max-w-3xl mx-auto">
             <div
               dangerouslySetInnerHTML={{
                 __html: `
@@ -51,6 +39,16 @@ export default function Hero() {
                 `
               }}
             />
+          </div>
+
+          <div className="flex justify-center mb-12">
+            <button className="group relative bg-black text-white px-10 py-5 rounded-xl font-bold text-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <span className="relative flex items-center gap-3">
+                Book a Call
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
+              </span>
+            </button>
           </div>
 
           <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
